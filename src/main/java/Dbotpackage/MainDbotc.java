@@ -25,7 +25,7 @@ public class MainDbotc {
                 awaitReady(); //added awaitReady so we can get the Guild not until after the bot is done doing its thing
 
         //Global Command - Can take up to an hour to register and be available
-        bot.upsertCommand("fart", "fart with power").queue();
+        bot.upsertCommand("shoot", "You got shot").queue();
 
         //Guild Command - Added immediately. Make sure you use awaitReady like above.
         Guild testServer = bot.getGuildById("973479624141058098");
