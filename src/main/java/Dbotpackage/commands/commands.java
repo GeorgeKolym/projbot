@@ -9,10 +9,10 @@ public class commands extends ListenerAdapter  {
     @Override
     public void onSlashCommandInteraction(@NotNull SlashCommandInteractionEvent event) {
 
-        if(event.getName().equals("fart")){
+        if(event.getName().equals("shoot")){
 
             //Send a message in response to the command being run
-            event.reply("You just farted").queue();
+            event.reply("You got shot").queue();
 
         }else if(event.getName().equals("food")){
 
