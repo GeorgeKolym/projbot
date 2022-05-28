@@ -20,11 +20,11 @@ public class Calculate extends ListenerAdapter {
             int num1 = Integer.parseInt(message[2]);
             int num2 = Integer.parseInt(message[3]);
             event.getChannel().sendMessage("The Result is: " + (num1 - num2)).queue();
-        } else if(message[0].equalsIgnoreCase("!calculate") && message[1].equalsIgnoreCase("sub")){
+        } else if(message[0].equalsIgnoreCase("!calculate") && message[1].equalsIgnoreCase("mul")){
             int num1 = Integer.parseInt(message[2]);
             int num2 = Integer.parseInt(message[3]);
             event.getChannel().sendMessage("The Result is: " + (num1 * num2)).queue();
-        } else if(message[0].equalsIgnoreCase("!calculate") && message[1].equalsIgnoreCase("sub")) {
+        } else if(message[0].equalsIgnoreCase("!calculate") && message[1].equalsIgnoreCase("div")) {
             int num1 = Integer.parseInt(message[2]);
             int num2 = Integer.parseInt(message[3]);
             event.getChannel().sendMessage("The Result is: " + (num1 / num2)).queue();

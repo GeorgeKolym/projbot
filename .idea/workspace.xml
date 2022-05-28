@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51b6fcd4-fcd0-4eec-b6c2-dd399bcda270" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/nCommands/Calculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dbotpackage/MainDbotc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/MainDbotc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653732019401</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="v4">
+      <created>1653735388349</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653735388349</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +119,7 @@
     <MESSAGE value="new packages" />
     <MESSAGE value="saturday vers v2" />
     <MESSAGE value="saturday vers v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="saturday vers v3" />
+    <MESSAGE value="v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4" />
   </component>
 </project>

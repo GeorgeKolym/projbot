@@ -1,7 +1,8 @@
 package Dbotpackage;
 
 
-import Dbotpackage.commands.sCommands.commands;
+import Dbotpackage.nCommands.Calculate;
+
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -20,7 +21,7 @@ public class MainDbotc {
 
         JDA bot = JDABuilder.createDefault("OTc3NTA1MDE2MDM2MzI3NDk1.GftgMH.UigLUaM_ICDhpak7glpYmkfmoM5UV6Lc9IGbo8")
                 .setActivity(Activity.watching("terrorists bullying citizens!"))
-                .addEventListeners(new commands())
+                .addEventListeners(new Calculate())
                 .build().
                 awaitReady(); //added awaitReady so we can get the Guild not until after the bot is done doing its thing
 
