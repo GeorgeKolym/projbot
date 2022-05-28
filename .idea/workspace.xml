@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51b6fcd4-fcd0-4eec-b6c2-dd399bcda270" name="Changes" comment="Saturday vers">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dbotpackage/commands/sCommands/commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/commands/sCommands/commands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/Command.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,6 +92,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="without music" />
