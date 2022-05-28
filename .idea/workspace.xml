@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51b6fcd4-fcd0-4eec-b6c2-dd399bcda270" name="Changes" comment="" />
+    <list default="true" id="51b6fcd4-fcd0-4eec-b6c2-dd399bcda270" name="Changes" comment="Saturday vers">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dbotpackage/commands/sCommands/commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/commands/sCommands/commands.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -88,7 +91,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="without music" />
