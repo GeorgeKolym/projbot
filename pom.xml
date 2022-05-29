@@ -18,5 +18,11 @@
         <artifactId>JDA</artifactId>
         <version>5.0.0-alpha.10</version>
     </dependency>
+          <dependency>
+        <groupId>com.jagrosh</groupId>
+        <artifactId>jda-utilities</artifactId>
+        <version>3.0.5</version>
+        <type>pom</type>
+    </dependency>
 </dependencies>
 </project>
