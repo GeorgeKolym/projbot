@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51b6fcd4-fcd0-4eec-b6c2-dd399bcda270" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/sCommands/slash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/nCommands/rolldice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dbotpackage/MainDbotc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/MainDbotc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dbotpackage/sCommands/slash.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Dbotpackage/sCommands/slash.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
   <component name="RunManager">
     <configuration name="MainDbotc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Dbotpackage.MainDbotc" />
-      <module name="Dbot10" />
+      <module name="projbot" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dbotpackage.*" />
@@ -139,7 +143,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="without music" />

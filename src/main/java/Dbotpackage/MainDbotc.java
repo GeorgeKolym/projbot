@@ -7,6 +7,7 @@ import Dbotpackage.ACommands.FilterOnOff;
 import Dbotpackage.nCommands.Calculate;
 
 //import Dbotpackage.nCommands.Invite;
+import Dbotpackage.nCommands.rolldice;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -30,12 +31,15 @@ public class MainDbotc {
                 .addEventListeners(new Filter())
                 .addEventListeners(new FilterOnOff())
                 .addEventListeners(new FilterMessage())
+                .addEventListeners(new rolldice())
 
-                .build().
-                awaitReady(); //added awaitReady so we can get the Guild not until after the bot is done doing its thing
+                .build()
+                .awaitReady(); //added awaitReady so we can get the Guild not until after the bot is done doing its thing
 
         //Global Command - Can take up to an hour to register and be available
         bot.upsertCommand("shoot", "You got shot").queue();
+        bot.upsertCommand("coinflip", "flips a coin!").queue();
+
 
         //Guild Command - Added immediately. Make sure you use awaitReady like above.
         Guild testServer = bot.getGuildById("973479624141058098");

@@ -7,6 +7,18 @@
     <groupId>org.example</groupId>
     <artifactId>Dbot10</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>17</source>
+                    <target>17</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
     <properties>
         <maven.compiler.source>18</maven.compiler.source>
@@ -18,11 +30,6 @@
         <artifactId>JDA</artifactId>
         <version>5.0.0-alpha.10</version>
          </dependency>
-         <dependency>
-        <groupId>com.jagrosh</groupId>
-        <artifactId>jda-utilities</artifactId>
-        <version>3.0.5</version>
-        <type>pom</type>
-    </dependency>
+
 </dependencies>
 </project>

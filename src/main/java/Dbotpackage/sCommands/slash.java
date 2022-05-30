@@ -50,8 +50,29 @@ public class slash extends ListenerAdapter  {
 
             event.reply("The sum is: " + sum).queue();
 
-        }
+        }else if(event.getName().equals("coinflip")){
 
-    }
-}
+                if (Math.random() < 0.5){
+                    event.reply("heads").queue();
+                }else{
+                    event.reply("tails").queue();
+
+
+                }
+            }else if(event.getName().equals("roll")){
+
+
+            }
+        }}
+
+
+
+
+
+
+
+
+
+
+
 
